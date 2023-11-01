@@ -1,5 +1,5 @@
 
-# Information
+# Introduction
 
 This is a companion repository to my blog posts [Demystifying Arm Cortex-M33 Bare Metal: Startup](https://metebalci.com/blog/demystifying-arm-cortex-m33-bare-metal-startup/) and [Demystifying Arm Cortex-M33 Bare Metal: Compile, Assembly and Link](https://metebalci.com/blog/demystifying-arm-cortex-m33-bare-metal-compile-assembly-and-link/).
 
@@ -7,9 +7,13 @@ This repository contains a Makefile based template project for Arm Cortex-M33 ba
 
 Makefile, startup code and the linker script contain useful comments if you want to modify them for your project.
 
-# Usage
+# Requirements
 
 You need to have [Arm GNU Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) executables in path.
+
+This sample is written and tested for NUCLEO-H563ZI on Linux (Ubuntu 22.04).
+
+# Usage
 
 When you run `make` first time, it downloads (clones) CMSIS 5.9.0 and STM32CubeH5 1.1.0 from github.
 
