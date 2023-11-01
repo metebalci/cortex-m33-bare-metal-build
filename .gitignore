@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# cmsis
+cmsis/
+cmsis_device_h5/
