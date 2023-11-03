@@ -69,6 +69,8 @@ SECTIONS
     *(.bss*)
     . = ALIGN(4);
     _ebss = .;
+/* end is used by _sbrk call in libnosys */
+    end = .;
   } >RAM
 
   .heap (COPY) :
